@@ -1,0 +1,50 @@
+"""
+class dog:
+    def __init__(self, name, age,):
+        self.name = name
+        self.age = age
+        
+    def display_info(self):
+       print("adatok" , self.name , self.age )
+        
+        
+d1 = dog("Pincsi", 26) 
+d1.display_info()
+"""
+"""
+class bankiszamla():
+    
+    def __init__(self,balance = 0):
+        self.balance = balance
+    
+    def deposit(self, amount):
+        self.balance += amount
+        print("feltöltés elfogadva")
+        
+    def withdraw(self,amount):
+        if self.balance >= amount:
+            self.balance -= amount
+            print("ki vétel elfogadva!")
+        else:
+            print("A kivétel nem sikerült!")
+            
+    def get_balance(self):
+        print(f"Account összege: {self.balance}")
+    
+acc = bankiszamla(999)
+acc.deposit(15)
+acc.get_balance()
+"""
+class Student():
+    
+    def __init_(self, name, grades):
+        self.name = name
+        self.grades = grades
+        
+    def atlag(self)
+        print(f"sum({})")
+    
+    
+    def  add_grade(self,grade):
+         self.grade = grades
+        
